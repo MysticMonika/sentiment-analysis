@@ -10,16 +10,19 @@ It involve following steps:
     * Once we have executed the above three steps, we can split every tweet into individual words or tokens which is an essential step in any NLP task.
     * In the 4th tweet, there is a word ‘love’. We might also have terms like loves, loving, lovable, etc. in the rest of the data. These terms are often used in the same context. If we can reduce them to their root word, which is ‘love’, then we can reduce the total number of unique words in our data without losing a significant amount of information.
 
- ## 2. Story Generation and Visualization from Tweets: In this section, we will explore the cleaned tweets text. Exploring and visualizing data, no matter whether its text or any other data, is an essential step in gaining insights.  
+ ## 2. Story Generation and Visualization from Tweets: 
+       In this section, we will explore the cleaned tweets text. Exploring and visualizing data, no matter whether its text or any other data, is an essential step in gaining insights.  
     * Understanding the common words used in the tweets: A wordcloud is a visualization wherein the most frequent words appear in large size and the less frequent words appear in smaller sizes.
     * After first step we will plot separate wordclouds for both the classes(racist/sexist or not) in our train data.
     * And also understanding the impact of hashtags.
 
-## 3. Extracting Features from Cleaned Tweets: To analyze a preprocessed data, it needs to be converted into features. Depending upon the usage, text features can be constructed using assorted techniques – Bag-of-Words and TF-IDF.
+## 3. Extracting Features from Cleaned Tweets: 
+      To analyze a preprocessed data, it needs to be converted into features. Depending upon the usage, text features can be constructed using assorted techniques – Bag-of-Words and TF-IDF.
 
- ## 4. Model Building: Sentiment Analysis: We are now done with all the pre-modeling stages required to get the data in the proper form and shape.
-    * building model using bags-of-words feature: ___Accuracy_score is 0.53___
-    * building model using Tfidf feature: ___Accuracy_score is 0.544___
+ ## 4. Model Building: Sentiment Analysis: 
+       We are now done with all the pre-modeling stages required to get the data in the proper form and shape.
+    * building model using bags-of-words feature: ***Accuracy_score is 0.53***
+    * building model using Tfidf feature: ***Accuracy_score is 0.544***
     
  ## 5. Last but not the least created API for sentiment analysis of tweets.
  
