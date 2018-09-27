@@ -26,7 +26,7 @@ It involve following steps:
  
       We are now done with all the pre-modeling stages required to get the data in the proper form and shape.
       - building model using bags-of-words feature: ***Accuracy_score is 0.53***
-       building model using Tfidf feature: ***Accuracy_score is 0.544***
+      - building model using Tfidf feature: ***Accuracy_score is 0.544***
     
   5. Last but not the least created API for sentiment analysis of tweets.
  
